@@ -34,10 +34,10 @@
       }
       const jsonData = JSON.stringify(data)
 
-      const url = "https://us5.api.mailchimp.com/3.0/lists/130f008343"
+      const url = "https://us5.api.mailchimp.com/3.0/lists/Add YOUR LIST ID"
       const options = {
          method: "POST",
-         auth: "Michael:a7a7515c85f92036a9373aa7da5095b6-us5"
+         auth: "ADD YOUR API KEY"
       }
       
       const request = https.request(url, options, function(response) {
@@ -69,8 +69,3 @@
    }) 
 
 
-   // Api Keys 
-   // a7a7515c85f92036a9373aa7da5095b6-us5
-   
-   //List ID
-   // 130f008343
